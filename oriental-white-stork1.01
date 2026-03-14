@@ -1,0 +1,17 @@
+# 1. 进入目录
+cd oriental-white-stork
+
+# 2. 添加所有新文件
+git add .
+
+# 3. 提交
+git commit -m "feat: Phase 1 - Agent capability declaration and discovery
+
+- Add CapabilityRegistry for agent capability management
+- Add DiscoveryService for intent-based agent matching  
+- Add capability API routes (/api/v1/capabilities/*)
+- Add Docker deployment configuration
+- Add comprehensive documentation"
+
+# 4. 推送到 GitHub
+git push origin main
